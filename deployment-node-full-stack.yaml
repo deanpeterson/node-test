@@ -34,7 +34,7 @@ spec:
       containers:
         - name: node-full-stack-git
           image: >-
-            image-registry.openshift-image-registry.svc:5000/test-quota/node-full-stack-git@sha256:d6b39a0b8b21205444fd94bb27b72f969b74010e5694cfe8a76a4b07b4bad877
+            image-registry.openshift-image-registry.svc:5000/node-test-gitops/node-full-stack-git@sha256:d6b39a0b8b21205444fd94bb27b72f969b74010e5694cfe8a76a4b07b4bad877
           ports:
             - containerPort: 8080
               protocol: TCP
