@@ -31,14 +31,6 @@ spec:
       uri: 'https://github.com/msatyan/NodeFullStack.git'
     contextDir: /
   triggers:
-    - type: Generic
-      generic:
-        secretReference:
-          name: node-full-stack-git-generic-webhook-secret
-    - type: GitHub
-      github:
-        secretReference:
-          name: node-full-stack-git-github-webhook-secret
     - type: ImageChange
       imageChange: {}
     - type: ConfigChange
