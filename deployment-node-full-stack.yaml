@@ -11,7 +11,6 @@ metadata:
       [{"from":{"kind":"ImageStreamTag","name":"node-full-stack-git:latest","namespace":"node-test2"},"fieldPath":"spec.template.spec.containers[?(@.name==\"node-full-stack-git\")].image","pause":"false"}]
     openshift.io/generated-by: OpenShiftWebConsole
   name: node-full-stack-git
-  namespace: node-test2
   labels:
     app: node-full-stack-git
     app.kubernetes.io/component: node-full-stack-git
