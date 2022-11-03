@@ -2,6 +2,8 @@
 apiVersion: build.openshift.io/v1
 metadata:
   name: node-full-stack-git
+  annotations:
+    argocd.argoproj.io/sync-wave: "0"
   labels:
     app: node-full-stack-git
     app.kubernetes.io/component: node-full-stack-git

@@ -14,6 +14,7 @@ metadata:
     app.openshift.io/vcs-ref: ''
     app.openshift.io/vcs-uri: 'https://github.com/msatyan/NodeFullStack.git'
     openshift.io/generated-by: OpenShiftWebConsole
+    argocd.argoproj.io/sync-wave: "0"
 spec:
   ipFamilies:
     - IPv4
